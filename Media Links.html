@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="favicon.ico" type="image/bmp" sizes="16x16">
+<title>Media Links</title>
+<link href="sty.css" type="text/css" rel="stylesheet" />
+
+</head>
+<link href="ie_dropdown.css" type="text/css" rel="stylesheet" />
+
+<!--<--[if IE]><link href="dropp.css" type="text/css" rel="stylesheet" /><![endif]-->
+<script type="text/javascript">
+  startList = function() {
+    if (document.all && document.ge
+tElementById) {
+        var navRoot = document.getElementById("trans-nav");
+        for (i=0; i<navRoot.childNodes.length; i++) {
+            var node = navRoot.childNodes[i];
+            if (node.nodeName=="LI") {
+                node.onmouseover=function() {
+                    this.className+=" over";
+                }
+                node.onmouseout=function() {
+                    this.className=this.className.replace(" over", "");
+                }
+            }
+        }
+    }
+}
+window.onload=startList;
+</script>
+<!--<script type="text/javascript">
+$('#cssmenu').prepend('<div id="menu-button">Menu</div>');
+	$('#cssmenu #menu-button').on('click', function(){
+		var menu = $(this).next('ul');
+		if (menu.hasClass('open')) {
+			menu.removeClass('open');
+		}
+		else {
+			menu.addClass('open');
+		}
+	});
+</script>
+-->
+
+<body>
+<div id="top"></div>
+
+<!--Start: Header-->
+<header>
+<span class="logo"><a href="home.html"><img src="400dpiLogo.png"/></a></span>
+<ul id="trans-nav">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Our Team.html">About Us</a></li>
+    <li><a href="">Programs</a>
+        <ul>
+            <li><a href="numna.html">Number Nagar</a></li>
+            <li><a href="Word World.html">Word World</a></li>
+            <li><a href="sum.html">Summer Programs</a></li>
+           <li><a href="spcl.html">Special Programs</a></li> 
+        </ul>
+    </li>
+    <li><a href="Media Links.html">Media Links</a></li>
+    <li><a href="Contact Us.html">Contact</a></li>
+</ul>
+
+</header>
+
+
+  <!--End: Header-->
+
+
+<div class="Main" id="opacity" style="padding:20px; font-size:16px; color:#fff;">
+<div style="float:left; margin-top:20px; width:600px;">
+<h3><a href="http://www.youtube.com/watch?v=IywNo8cigBM&list=UUdv72yTY73XH3xv-0WAoUAg" style="color:#FFF;">NumberNagar 3D walk through</a></h3>
+</br>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/IywNo8cigBM" frameborder="0" allowfullscreen></iframe>
+&nbsp;&nbsp;&nbsp;
+</div>
+<div style="float:left; margin-top:20px; width:600px;">
+<h3><a href="http://www.youtube.com/watch?v=a-KNLiT-_jU&feature=c4-overview&list=UUdv72yTY73XH3xv-0WAoUAg" style="color:#FFF;">NumberNagar 'Parent's Testimonial' video</a></h3>
+</br>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/a-KNLiT-_jU" frameborder="0" allowfullscreen></iframe>
+&nbsp;&nbsp;&nbsp;
+</div>
+<div style="float:left; margin-top:20px; width:600px;">
+<h3>NumberNagar in HSR layout</h3>
+</br>
+<a href="http://www.thisweekbangalore.com/numbernagar-now-opens-at-hsr-layout/" style="color:#FFF;">www.thisweekbangalore.com   numbernagar-now-opens-at-hsr-layout</a>
+</div>
+
+<div class="clr"></div>
+
+</div>
+
+
+
+<div id="bottom"><div style="width:810px; margin:0px auto; margin-top:0px;">
+<iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/fruitoflearning&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px; opacity:1; float:left; margin-top:30px;" allowTransparency="true"></iframe></div>
+</div>
+<div id="line"></div>
+
+
+  
+</body>
+</html>

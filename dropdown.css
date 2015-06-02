@@ -1,0 +1,47 @@
+.menu{
+  font-size:15px;
+  display:inline-block;
+  margin:0px;
+  padding:0px;
+}
+.menu a{
+  display:block;
+  width:120px;
+  text-align:center;
+  color:#000;
+}
+#menulist2{
+  width:130px;
+  height:auto;
+  margin-left:-1%;
+  z-index:20;
+  position:absolute;
+  border:1px solid #113399;
+  background-color:#8B1B1B;
+  display:none;
+}
+#menu2:hover #menulist2{
+  margin-top:6px;
+  display:block;
+}
+
+.menulist li{
+  float:left;
+  display:inline;
+  position:relative;
+  list-style:none;
+  width:72px;
+  padding:3px;
+  margin-left:0px;
+}
+
+.menulist div:hover,.menulist li:hover{
+  background-color:#1155ac;
+  display:block;
+  cursor:pointer;
+  color:#FF0;
+}
+#menulist2 a:hover
+{
+	color:#FF0;
+}

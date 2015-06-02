@@ -1,0 +1,105 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="favicon.bmp" type="image/bmp" sizes="16x16">
+<title>Summer Programs</title>
+<link href="styles.css" type="text/css" rel="stylesheet" />
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href=".\favicon.ico">
+<script type="text/javascript">
+
+
+var image1=new Image()
+image1.src="image1.jpg"
+var image2=new Image()
+image2.src="image2.jpg"
+var image3=new Image()
+image3.src="image3.jpg"
+
+</script>
+
+<link href="ie_dropdown.css" type="text/css" rel="stylesheet" />
+
+<!--<--[if IE]><link href="dropp.css" type="text/css" rel="stylesheet" /><![endif]-->
+<script type="text/javascript">
+  startList = function() {
+    if (document.all && document.getElementById) {
+        var navRoot = document.getElementById("trans-nav");
+        for (i=0; i<navRoot.childNodes.length; i++) {
+            var node = navRoot.childNodes[i];
+            if (node.nodeName=="LI") {
+                node.onmouseover=function() {
+                    this.className+=" over";
+                }
+                node.onmouseout=function() {
+                    this.className=this.className.replace(" over", "");
+                }
+            }
+        }
+    }
+}
+window.onload=startList;
+</script>
+<!--<script type="text/javascript">
+$('#cssmenu').prepend('<div id="menu-button">Menu</div>');
+	$('#cssmenu #menu-button').on('click', function(){
+		var menu = $(this).next('ul');
+		if (menu.hasClass('open')) {
+			menu.removeClass('open');
+		}
+		else {
+			menu.addClass('open');
+		}
+	});
+</script>
+</head>
+
+<body>
+
+ 
+
+<div id="top">
+
+
+
+
+</div>
+<!--Start: Header-->
+<header>
+<span class="logo"><a href="home.html"><img src="400dpiLogo.png"/></a></span>
+<ul id="trans-nav">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Our Team.html">About Us</a></li>
+    <li><a href="">Programs</a>
+        <ul>
+            <li><a href="numna.html">Number Nagar</a></li>
+            <li><a href="Word World.html">Word World</a></li>
+            <li><a href="sum.html">Summer Programs</a></li>
+           <li><a href="spcl.html">Special Programs</a></li> 
+        </ul>
+    </li>
+    <li><a href="Media Links.html">Media Links</a></li>
+    <li><a href="Contact Us.html">Contact</a></li>
+</ul>
+
+</header>
+
+  <!--End: Header-->
+
+<div style="margin:0px auto; width:850px; margin-top:30px;">
+
+
+<img src="blast.jpg" style="width:400px; float:left;margin:5px;"/>
+<img src="math.jpg" style="width:400px; float:left;margin-left:10px;"/>
+</div>
+
+
+</div>
+<div id="bottom"><div style="width:810px; margin:0px auto; margin-top:630px;">
+<iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/fruitoflearning&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px; opacity:1; float:left; margin-top:30px;" allowTransparency="true"></iframe></div>
+</div>
+
+
+</body>
+</html>
